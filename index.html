@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuest: Reto Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>📚 CodeQuest: Reto Digital</h1>
+        <button onclick="startGame()">Iniciar Quiz</button>
+        <div id="question-container" style="display: none;">
+            <p id="question-text"></p>
+            <button class="answer-btn" onclick="checkAnswer(0)"></button>
+            <button class="answer-btn" onclick="checkAnswer(1)"></button>
+            <button class="answer-btn" onclick="checkAnswer(2)"></button>
+            <button class="answer-btn" onclick="checkAnswer(3)"></button>
+        </div>
+        <p id="score" style="display: none;">Puntos: 0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
